@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
-import DataTable from "../DataTable";
+import DataTable from "../EmployeeTable";
 import Nav from "../Nav";
 import API from "../../utils/API";
-import "./DataArea.css";
-import DataAreaContext from "../../utils/DataAreaContext"
+import "./UserArea.css";
+import DataAreaContext from "../../utils/UserAreaContext"
 
 const DataArea = () => {
       const [developerState, setDeveloperState] = useState({
@@ -89,7 +89,7 @@ return b[heading]-  a[heading];
           value={{ developerState, handleSearchChange, handleSort }}
         >
           <Nav />
-          <div className="data-area">
+          <div className="user-area">
             {developerState.filteredUsers.length > 0 
     ? <DataTable />
      : <div></div>

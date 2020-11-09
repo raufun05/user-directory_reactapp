@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import DataBody from "../DataBody";
-import "./DataTable.css";
-import DataAreaContext from "../../utils/DataAreaContext";
+import DataBody from "../UserBody";
+import "./EmployeeTable.css";
+import UserAreaContext from "../../utils/UserAreaContext";
 
-const DataTable = () => {
-    const context = useContext(DataAreaContext);
+const EmployeeTable = () => {
+    const context = useContext(UserAreaContext);
 
     return (
 
@@ -39,4 +39,4 @@ const DataTable = () => {
     );
 }
 
-export default DataTable;
+export default EmployeeTable;

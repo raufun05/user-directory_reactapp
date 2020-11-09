@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import "./DataBody.css"
-import DataAreaContext from "../../utils/DataAreaContext"
+import "./UserBody.css"
+import UserAreaContext from "../../utils/UserAreaContext"
 
-const DataBody = () => {
-    const context = useContext(DataAreaContext);
+const UserBody = () => {
+    const context = useContext(UserAreaContext);
 
     function formatDate(date){
         const dateArray = date.split("-");
@@ -51,4 +51,4 @@ const DataBody = () => {
     );
   }
   
-  export default DataBody;
+  export default UserBody;
