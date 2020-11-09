@@ -6,7 +6,6 @@ import UserAreaContext from "../../utils/UserAreaContext";
 const EmployeeTable = () => {
     const context = useContext(UserAreaContext);
     return (
-
         <div className="datatable mt-5">
             <table
                 id="table"
