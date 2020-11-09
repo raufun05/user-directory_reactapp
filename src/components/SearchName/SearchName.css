@@ -1,0 +1,15 @@
+.searchbox button{
+    border: 2px solid green;
+    
+}
+.searchbox button:hover {
+    background-color: green;
+    color:white;
+}
+.form-control{
+    border: 2px solid green;
+    
+}
+.searchbox {
+    margin-left: 500px;
+}
